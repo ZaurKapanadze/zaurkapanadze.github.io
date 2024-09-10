@@ -1,8 +1,5 @@
 # zaurkapanadze.github.io
 
-##Education
-TTU
-
-###Work
-TTU
+#Zaur Kapanadze
+Hello
 
