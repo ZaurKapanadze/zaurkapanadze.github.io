@@ -34,28 +34,14 @@ main {
     flex: 2;
     margin-right: 40px;
 }
-.profile-photo-container {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Optional: Add some padding or shadow for aesthetics */
-    /* padding: 20px; */
-    /* box-shadow: 0 2px 8px rgba(0,0,0,0.08); */
-}
 .profile-photo {
+    max-width: 160px;   /* You can adjust this value to your liking */
     width: 100%;
     height: auto;
-    max-width: 100%;
     object-fit: cover;
     display: block;
     border: 1px solid #ccc;
     background: #eaeaea;
+    margin: 0 auto;     /* Centers the image horizontally */
 }
-@media (max-width: 600px) {
-    .profile-photo-container {
-        max-width: 90vw;
-    }
-}
+
