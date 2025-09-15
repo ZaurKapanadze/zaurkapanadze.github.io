@@ -1,2 +1,0 @@
-# zaurkapanadze.github.io
-
