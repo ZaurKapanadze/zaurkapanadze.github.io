@@ -11,6 +11,12 @@ nav {
     text-align: center;
     border-bottom: 1px solid #eaeaea;
 }
+}
+
+/* Align section titles to the right */
+h1, h2 {
+    text-align: right;
+}
 nav a {
     color: #222;
     margin: 0 15px;
