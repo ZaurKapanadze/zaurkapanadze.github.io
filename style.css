@@ -40,6 +40,5 @@ main {
     object-fit: cover;
     /* border-radius removed for square image */
     background: #eaeaea;
-    flex: 1;
     display: block;
 }
