@@ -42,13 +42,18 @@ main {
     margin-right: 40px;
 }
 .profile-photo {
-    max-width: 160px;   /* You can adjust this value to your liking */
+    max-width: 160px;
     width: 100%;
     height: auto;
     object-fit: cover;
     display: block;
     border: 1px solid #ccc;
     background: #eaeaea;
-    margin: 0 auto;     /* Centers the image horizontally */
+    margin: 0 auto;
+    align-self: center; /* This ensures the image is centered vertically */
 }
-
+.home-content {
+    display: flex;
+    align-items: center; /* This centers items vertically in the container */
+    justify-content: space-between;
+}
