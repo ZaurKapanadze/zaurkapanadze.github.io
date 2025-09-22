@@ -11,7 +11,6 @@ nav {
     text-align: center;
     border-bottom: 1px solid #eaeaea;
 }
-}
 
 /* Align section titles to the right */
 h1, h2 {
@@ -33,16 +32,15 @@ main {
 }
 .home-content {
     display: flex;
-    align-items: center;
+    align-items: center;         /* Vertically center image to bio section */
     justify-content: space-between;
-    flex-direction: row-reverse;
 }
 .bio-section {
     flex: 2;
     margin-right: 40px;
 }
 .profile-photo {
-    max-width: 160px;
+    max-width: 160px;   /* You can adjust this value to your liking */
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -50,10 +48,5 @@ main {
     border: 1px solid #ccc;
     background: #eaeaea;
     margin: 0 auto;
-    align-self: center; /* This ensures the image is centered vertically */
-}
-.home-content {
-    display: flex;
-    align-items: center; /* This centers items vertically in the container */
-    justify-content: space-between;
+    align-self: center;          /* Ensures image is centered vertically */
 }
