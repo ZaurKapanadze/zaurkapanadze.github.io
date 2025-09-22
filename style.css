@@ -40,13 +40,13 @@ main {
     margin-right: 40px;
 }
 .profile-photo {
-    max-width: 160px;
+    max-width: 160px;   /* You can adjust this value to your liking */
     width: 100%;
     height: auto;
     object-fit: cover;
     display: block;
     border: 1px solid #ccc;
     background: #eaeaea;
-    margin: 0 0 0 -40px; /* Top, Right, Bottom, Left (40px space on the left side of the image) */
-    align-self: center;
+    margin: 0 auto;
+    align-self: center;          /* Ensures image is centered vertically */
 }
