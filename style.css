@@ -11,6 +11,7 @@ nav {
     text-align: center;
     border-bottom: 1px solid #eaeaea;
 }
+}
 
 /* Align section titles to the right */
 h1, h2 {
@@ -32,7 +33,7 @@ main {
 }
 .home-content {
     display: flex;
-    align-items: center;         /* Vertically center image to bio section */
+    align-items: center;
     justify-content: space-between;
 }
 .bio-section {
@@ -47,6 +48,5 @@ main {
     display: block;
     border: 1px solid #ccc;
     background: #eaeaea;
-    margin: 0 auto;
-    align-self: center;          /* Ensures image is centered vertically */
+    margin: 0 auto;     /* Centers the image horizontally */
 }
