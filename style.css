@@ -39,6 +39,7 @@ main {
 .bio-section {
     flex: 2;
     margin-right: 40px;
+    text-align: justify
 }
 .profile-photo {
     max-width: 160px;   /* You can adjust this value to your liking */
